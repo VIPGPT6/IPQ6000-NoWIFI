@@ -97,10 +97,10 @@ jobs:
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
-      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install lm-sensors
+      run: cd openwrt && ./scripts/feeds update -a -p packages luci && ./scripts/feeds install -a -p packages luci
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install lm-sensors libpam luci-proto-ipv6 liblzma libnetsnmp lzo && ./scripts/feeds install -a
 
     - name: Load custom configuration
       run: |
