@@ -100,7 +100,7 @@ jobs:
       run: cd openwrt && ./scripts/feeds update -a -p packages luci && ./scripts/feeds install -a -p packages luci
 
     - name: Install feeds
-      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install lm-sensors && ./scripts/feeds install -a
+      run: cd openwrt && ./scripts/feeds update -a && ./scripts/feeds install lm-sensors libpam && ./scripts/feeds install -a
 
     - name: Load custom configuration
       run: |
