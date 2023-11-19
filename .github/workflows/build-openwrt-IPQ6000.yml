@@ -20,7 +20,7 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/coolsnowwolf/openwrt-gl-ax1800
+  REPO_URL: https://github.com/deanzai/ipq6000
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
