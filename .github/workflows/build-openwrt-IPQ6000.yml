@@ -20,8 +20,8 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/deanzai/ipq6000
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/KK2018gh/openwrt-gl-ax1800
+  REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
   DIY_P1_SH: diy-part1-ipq6000.sh
