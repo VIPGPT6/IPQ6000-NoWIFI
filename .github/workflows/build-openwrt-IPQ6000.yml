@@ -21,7 +21,7 @@ on:
 
 env:
   REPO_URL: https://github.com/deanzai/ipq6000
-  REPO_BRANCH: master
+  REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
   DIY_P1_SH: diy-part1-ipq6000.sh
