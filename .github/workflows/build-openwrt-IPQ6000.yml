@@ -20,7 +20,7 @@ on:
         默认: 'false'
 
 env:
-  REPO_URL: https://github.com/felix-fly/openwrt-ax18
+  REPO_URL: https://github.com/felix-fly/qsdk-12
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: config-ipq6000.cfg
